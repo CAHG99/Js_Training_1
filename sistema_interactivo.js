@@ -22,6 +22,9 @@ function sistemaInteractivo(){
     if (isNaN(edad)){ // NAN -> not a number
         console.error("Error: Por favor, ingresa una edad valida en numeros");
         return
+    } else if (edad < 1 || edad > 100){
+        alert("Por favor, ingresa una edad valida entre 1 a 100");
+        return
     } else if (edad < 18){
         alert(`Hola ${nombre}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del codigo!`);
     } else {
