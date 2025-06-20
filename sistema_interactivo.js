@@ -1,6 +1,6 @@
 let lisClientes=[];
 
-function agregarClientes(){
+function sistemaInteractivo(){
     //Inicializacion del programa
     console.log("¡Bienvenido al Sistema Interactivo de Mensajes!");
     

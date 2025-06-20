@@ -3,8 +3,8 @@
 }
 
 body{
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: repeat-y;
     background-image: url(https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8);
     color: #fff;
 }
@@ -13,13 +13,13 @@ header {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
     height: auto;
     background-color: rgba(05, 05, 05, 0.8);
+    padding: 3rem;
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 2em;
     padding: 5px;
 }
 
@@ -37,7 +37,7 @@ div {
 }
 
 button {
-    width: 5rem;
+    width: 7rem;
     height: 2rem;
     border-radius: 2rem;
     background-color: #000;
